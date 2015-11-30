@@ -4,7 +4,7 @@ var hookUrl = "https://joncombe-mailtest-v1.p.mashape.com/v1/";
 module.exports = function(apikey) {
   if (!isValidAPIKey(apikey)) {
     throw new Error("No valid API Key!");
-  }
+  } 
   return function(email, cb){
     var regex = /^\S+@(\S+\.\S+)$/g;
     var proof = {
