@@ -1,0 +1,30 @@
+{
+  "name": "email-verification-online",
+  "version": "1.0.0",
+  "description": "Simple wrapper for the RESTapi of mailtest.in to verify a email",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "dependencies": {
+    "unirest": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janek26/node-email-verification-online.git"
+  },
+  "keywords": [
+    "node",
+    "email",
+    "validator",
+    "mailtest.in",
+    "api",
+    "rest"
+  ],
+  "author": "Janek Rahrt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janek26/node-email-verification-online/issues"
+  },
+  "homepage": "https://github.com/janek26/node-email-verification-online#readme"
+}
